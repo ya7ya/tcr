@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A generic, string-keyed TCR in Solidity",
   "scripts": {
-    "install": "truffle install",
+    "install": "truffle install && npm run compile",
     "compile": "truffle compile",
     "coverage": "solidity-coverage",
     "deploy-rinkeby": "truffle migrate --network rinkeby",
