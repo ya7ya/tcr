@@ -5,7 +5,8 @@
   "main": "truffle.js",
   "directories": {
     "test": "test",
-    "build": "build"
+    "build": "build",
+    "conf": "conf"
   },
   "scripts": {
     "build": "truffle install",
