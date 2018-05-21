@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "truffle install",
-    "compile": "truffle compile",
+    "compile": "truffle compile && node ./slim-build.js",
     "coverage": "solidity-coverage",
     "deploy-rinkeby": "truffle migrate --network rinkeby",
     "deploy-mainnet": "truffle migrate --network mainnet",
