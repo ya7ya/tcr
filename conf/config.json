@@ -1,6 +1,6 @@
 {
   "paramDefaults": {
-    "minDeposit": 10,
+    "minDeposit": 5,
     "pMinDeposit": 100,
     "applyStageLength": 600,
     "pApplyStageLength": 1200,
@@ -33,4 +33,3 @@
     ]
   }
 }
-
