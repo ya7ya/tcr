@@ -13,7 +13,6 @@ files.forEach((file) => {
     contractName: json.contractName,
     abi: json.abi,
     bytecode: json.bytecode,
-    deployedBytecode: json.deployedBytecode,
   };
   // overwrites original file with slim file
   fs.writeFile(`./build/contracts/${file}`, JSON.stringify(obj), (err) => {
