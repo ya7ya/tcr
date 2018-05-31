@@ -1,12 +1,12 @@
 {
   "paramDefaults": {
-    "minDeposit": 5,
+    "minDeposit": 10,
     "pMinDeposit": 100,
-    "applyStageLength": 600,
+    "applyStageLength": 5,
     "pApplyStageLength": 1200,
-    "commitStageLength": 600,
+    "commitStageLength": 25,
     "pCommitStageLength": 1200,
-    "revealStageLength": 600,
+    "revealStageLength": 35,
     "pRevealStageLength": 1200,
     "dispensationPct": 50,
     "pDispensationPct": 50,
